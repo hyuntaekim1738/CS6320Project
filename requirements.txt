@@ -1,0 +1,9 @@
+sentencepiece
+gensim 
+nltk
+sentence-transformers
+torch
+transformers
+scikit-learn
+numpy
+requests

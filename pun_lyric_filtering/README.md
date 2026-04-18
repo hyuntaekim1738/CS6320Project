@@ -1,5 +1,6 @@
 # Pun Lyric Filtering Module
-This contains the file that has the modules to train and filter out jokes and lyrics in addition to the file used to generate the lyric dataset. 
+This contains the file that has the modules to train and filter out jokes and lyrics in addition to the file used to generate the lyric dataset.
+
 ## Datasets and Sources
 - Joke Dataset
     - ColBERT: https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection

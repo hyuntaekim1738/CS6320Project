@@ -1,19 +1,10 @@
-# Sanjay's Modules
-
-## Files
-- `context_word_generator.py` — generates context words (TF-IDF, Word2Vec, LLM)
-- `evaluation_system.py` — scores puns/lyrics using 3 LLM APIs
-
----
-
-## Install dependencies
+# CS6320 Project
+## Running Instructions
+### Install dependencies
 ```bash
-pip install requests nltk scikit-learn gensim
+pip install sentencepiece sentence-transformers transformers scikit-learn numpy torch requests nltk scikit-learn gensim
 ```
-
----
-
-## API Keys needed
+### Setup API Keys
 Get free keys (no credit card) from:
 - **Gemini**: https://aistudio.google.com/
 - **Groq**: https://console.groq.com/
@@ -37,7 +28,7 @@ OpenRouter
 3. Click "Create Key"
 4. Copy it
 
-Once you have your keys, paste them at the top of each file where it says:
+Once you have your keys, navigate to CS6320Project/cs6320projectpipeline.py and paste them at the top of each file where it says:
 ```python
 GEMINI_API_KEY     = os.environ.get("GEMINI_API_KEY",     "YOUR_GEMINI_API_KEY_HERE")
 GROQ_API_KEY       = os.environ.get("GROQ_API_KEY",       "YOUR_GROQ_API_KEY_HERE")
@@ -46,6 +37,27 @@ OPENROUTER_API_KEY = os.environ.get("OPENROUTER_API_KEY", "YOUR_OPENROUTER_API_K
 Replace the `YOUR_X_API_KEY_HERE` placeholder with your actual key.
 
 ---
+### Run the program
+Ensure that the following files and folders are present:
+- CS6320Project/subtask3-homographic-trial.gold
+- CS6320Project/subtask3-homographic-trial.xml
+- CS6320Project/models
+- CS6320Project/cs6320projectpipeline.py.  
+To run the entire system, run the following command:
+```bash
+python3 cs6320projectpipeline.py
+```
+The output will be displayed on the terminal
+
+## Files
+- `context_word_generator.py` — generates context words (TF-IDF, Word2Vec, LLM)
+- `evaluation_system.py` — scores puns/lyrics using 3 LLM APIs
+
+---
+
+
+---
+
 
 ## Run tests
 ```bash

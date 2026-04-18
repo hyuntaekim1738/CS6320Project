@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-04-18T16:16:50.769397+00:00",
+  "results": [
+    {
+      "sentence": "The attractive person sparked my interest in the new club, but I think it's just the high interest rates that are making it seem so appealing",
+      "type": "pun",
+      "gemini": {
+        "humor": 4,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 5
+      },
+      "groq": {
+        "humor": 4,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 5
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 5,
+        "humor": 4,
+        "composite": 4.75
+      }
+    },
+    {
+      "sentence": "In the silence of the night, I feel a spark of interest that sets my heart alight, a flame that flickers with every interest that we ignite.",
+      "type": "lyric",
+      "gemini": null,
+      "groq": {
+        "lyricism": 5,
+        "ambiguity": 4,
+        "emotion": 5,
+        "flow": 5
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 4,
+        "lyricism": 5,
+        "flow": 5,
+        "emotion": 5,
+        "composite": 4.75
+      }
+    },
+    {
+      "sentence": "The attractive woman sparked interest in the man, who was not only attracted to her, but also had a significant interest in the loans she was offering through Sloan",
+      "type": "pun",
+      "gemini": {
+        "humor": 3,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 4
+      },
+      "groq": {
+        "humor": 4,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 5
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 4.5,
+        "humor": 3.5,
+        "composite": 4.5
+      }
+    },
+    {
+      "sentence": "The bank's interest in my account was high, but my interest in their fees was even higher",
+      "type": "pun",
+      "gemini": {
+        "humor": 3,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 4
+      },
+      "groq": {
+        "humor": 4,
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 5
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 5,
+        "coherence": 5,
+        "wordplay": 4.5,
+        "humor": 3.5,
+        "composite": 4.5
+      }
+    },
+    {
+      "sentence": "in the still of the night i feel an interest thats hard to define a spark thats attractive and new drawing me to a love thats worth more than all the interest in the world",
+      "type": "lyric",
+      "gemini": {
+        "lyricism": 4,
+        "ambiguity": 5,
+        "emotion": 4,
+        "flow": 3
+      },
+      "groq": {
+        "lyricism": 5,
+        "ambiguity": 4,
+        "emotion": 5,
+        "flow": 5
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 4.5,
+        "lyricism": 4.5,
+        "flow": 4,
+        "emotion": 4.5,
+        "composite": 4.38
+      }
+    },
+    {
+      "sentence": "in the still of the night i see your attractive face and im drawn to the interest that we share a love thats stronger than the loans that bear the weight of sloan",
+      "type": "lyric",
+      "gemini": null,
+      "groq": {
+        "lyricism": 4,
+        "ambiguity": 4,
+        "emotion": 5,
+        "flow": 3
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 4,
+        "lyricism": 4,
+        "flow": 3,
+        "emotion": 5,
+        "composite": 4
+      }
+    },
+    {
+      "sentence": "in the still of night i feel an engaging and fascinating connection a love that accrues interest like money in a bank forever growing",
+      "type": "lyric",
+      "gemini": {
+        "lyricism": 3,
+        "ambiguity": 1,
+        "emotion": 4,
+        "flow": 2
+      },
+      "groq": {
+        "lyricism": 5,
+        "ambiguity": 4,
+        "emotion": 5,
+        "flow": 4
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 2.5,
+        "lyricism": 4,
+        "flow": 3,
+        "emotion": 4.5,
+        "composite": 3.5
+      }
+    },
+    {
+      "sentence": "The bank's fascinating and engaging advertisement really sparked my interest in investing money",
+      "type": "pun",
+      "gemini": {
+        "humor": 1,
+        "ambiguity": 1,
+        "coherence": 5,
+        "wordplay": 1
+      },
+      "groq": {
+        "humor": 1,
+        "ambiguity": 1,
+        "coherence": 5,
+        "wordplay": 1
+      },
+      "openrouter": null,
+      "aggregate": {
+        "ambiguity": 1,
+        "coherence": 5,
+        "wordplay": 1,
+        "humor": 1,
+        "composite": 2
+      }
+    }
+  ]
+}

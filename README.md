@@ -51,3 +51,12 @@ The output will be displayed on the terminal and saved to evaluation_results.jso
 The results that we referred to in our report are contained in the Copy_of_CS6320ProjectPipeline.ipynb notebook. 
 
 The models, other_modules, and pun_lyric_filtering directories contain the functions and modules that were used in the cs6320projectpipeline.py file. The semeval2017_task7 contains the dataset containing the input set of words.
+
+## Utilized Datasets
+- SemEval 2017 Task 7: https://alt.qcri.org/semeval2017/task7/
+- ColBERT: https://www.kaggle.com/datasets/deepcontractor/200k-short-texts-for-humor-detection
+- Million Song Dataset: https://huggingface.co/datasets/vishnupriyavr/spotify-million-song-dataset
+- One Million Reddit Questions Dataset: https://huggingface.co/datasets/SocialGrep/one-million-reddit-questions
+- TLDR-17: https://huggingface.co/datasets/webis/tldr-17
+- One Billion Word Dataset:
+- TFIDF Dataset?

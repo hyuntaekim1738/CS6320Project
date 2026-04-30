@@ -47,54 +47,7 @@ To run the entire system, run the following command:
 ```bash
 python3 cs6320projectpipeline.py
 ```
-The output will be displayed on the terminal
+The output will be displayed on the terminal and saved to evaluation_results.json.
+The results that we referred to in our report are contained in the Copy_of_CS6320ProjectPipeline.ipynb notebook. 
 
-## Files
-- `context_word_generator.py` — generates context words (TF-IDF, Word2Vec, LLM)
-- `evaluation_system.py` — scores puns/lyrics using 3 LLM APIs
-
----
-
-
----
-
-
-## Run tests
-```bash
-python context_word_generator.py   # TF-IDF and Word2Vec work without API keys
-python evaluation_system.py        # needs all 3 keys, uses dummy sentences for now
-```
-
----
-
-## Pipeline usage
-
-### context_word_generator.py
-Takes output from `related_words.py`:
-```python
-from context_word_generator import generate_context_words
-
-context = generate_context_words(
-    related_words_sense1=["money", "vault", "loan"],
-    related_words_sense2=["shore", "river", "stream"],
-    pun_word="bank",
-    method="all"  # or "tfidf" / "word2vec" / "llm"
-)
-# Returns: {"tfidf": [...], "word2vec": [...], "llm": [...]}
-```
-
-### evaluation_system.py
-Takes output from pun/lyric filters:
-```python
-from evaluation_system import evaluate_candidates, print_summary
-
-results = evaluate_candidates([
-    {"text": "I tried to save money at the river bank...", "type": "pun"},
-    {"text": "She banks on love, but shores up her heart.", "type": "lyric"},
-])
-print_summary(results)
-# Results also saved to evaluation_results.json
-```
-
-**Pun metrics:** humor, ambiguity, coherence, wordplay (1–5 each)  
-**Lyric metrics:** lyricism, ambiguity, emotion, flow (1–5 each)
+The models, other_modules, and pun_lyric_filtering directories contain the functions and modules that were used in the cs6320projectpipeline.py file. The semeval2017_task7 contains the dataset containing the input set of words.

@@ -1,4 +1,6 @@
 # CS6320 Project
+## Results
+To refer to the specific set of results we referenced in our report, go to the Copy_of_CS6320ProjectPipeline.ipynb notebook. 
 ## Running Instructions
 ### Install dependencies
 ```bash
@@ -48,7 +50,6 @@ To run the entire system, run the following command:
 python3 cs6320projectpipeline.py
 ```
 The output will be displayed on the terminal and saved to evaluation_results.json.
-The results that we referred to in our report are contained in the Copy_of_CS6320ProjectPipeline.ipynb notebook. 
 
 The models, other_modules, and pun_lyric_filtering directories contain the functions and modules that were used in the cs6320projectpipeline.py file. The semeval2017_task7 contains the dataset containing the input set of words.
 
@@ -58,5 +59,5 @@ The models, other_modules, and pun_lyric_filtering directories contain the funct
 - Million Song Dataset: https://huggingface.co/datasets/vishnupriyavr/spotify-million-song-dataset
 - One Million Reddit Questions Dataset: https://huggingface.co/datasets/SocialGrep/one-million-reddit-questions
 - TLDR-17: https://huggingface.co/datasets/webis/tldr-17
-- One Billion Word Dataset:
-- TFIDF Dataset?
+- One Billion Word Dataset: https://www.statmt.org/lm-benchmark/
+- Brown Corpus (Included in NLTK)
